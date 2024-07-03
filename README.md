@@ -1,2 +1,7 @@
 # sign_up_form
-Sign Up Form project for The Odin Project
+
+This is a sign up form created for The Odin Project, to demonstrate skills creating and styling forms in HTML and CSS.
+
+Skills demonstrated:
+ - HTML (forms)
+ - CSS
