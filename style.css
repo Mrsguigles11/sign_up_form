@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Helvetica, system-ui, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+}
+
+
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 33%;
+    height: 100vh;
+    background-image: url(./img/bruno-thethe-Evp4iNF3DHQ-unsplash.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sidebar a:link,
+.sidebar a:visited {
+    color: white;
+}
+
+.credit {
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.main_body {
+    width: 67%;
+}
