@@ -73,7 +73,7 @@
 }
 
 .main_header {
-    height: 25%;
+    height: 35%;
     width: 100%;
     background-color: rgb(245, 245, 245);
     box-shadow: 0 1px 4px rgb(221, 221, 221);
@@ -95,3 +95,28 @@
     margin-top: 10px;
 }
 
+.body_content {
+    height: 33%;
+    width: 100%;
+    background-color: rgb(221, 219, 252);
+    box-shadow: 0 2px 4px rgb(214, 214, 214);
+    padding: 2% 10% 0 5%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+form > div {
+    width: 50%;
+    margin-top: 1%;
+}
+
+input {
+    width: 50%;
+    height: 25px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
