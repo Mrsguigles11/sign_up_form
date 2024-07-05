@@ -1,8 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
     padding: 0;
 }
@@ -10,6 +7,12 @@ body {
 :root {
     font-family: Helvetica, system-ui, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
+}
+
+@font-face {
+    font-family: "norse-bold";
+    src: url(./fonts/norse-bold-webfont.woff2);
+    src: url(./fonts/norse-bold-webfont.woff);
 }
 
 
@@ -22,12 +25,12 @@ body {
 
 .sidebar {
     width: 33%;
-    height: 100vh;
+    height: 100%;
     background-image: url(./img/bruno-thethe-Evp4iNF3DHQ-unsplash.jpg);
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .sidebar a:link,
@@ -38,10 +41,57 @@ body {
 .credit {
     color: white;
     font-weight: bold;
+    font-size: calc(0.5rem + 1vh);
     align-self: center;
     -webkit-text-stroke: 0.5px black;
+    margin-bottom: 1vh;
 }
 
 .main_body {
     width: 67%;
+    height: 100%;
 }
+
+.logo_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    width: 100%;
+}
+
+.odin_logo {
+    height: 12vh;
+    margin-right: 1vw;
+}
+
+.odin_txt {
+    font-family: "norse-bold";
+    color: white;
+    font-size: calc(1rem + 12vh);
+}
+
+.main_header {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 1px 4px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.main_header > p,
+.main_header > em {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.main_header > em {
+    margin-top: 10px;
+}
+
