@@ -26,11 +26,13 @@
 .sidebar {
     width: 33%;
     height: 100%;
-    background-image: url(./img/bruno-thethe-Evp4iNF3DHQ-unsplash.jpg);
+    background-image: url(./img/victor-rodriguez-UrfpprfDB0k-unsplash.jpg);
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
 .sidebar a:link,
@@ -73,10 +75,9 @@
 }
 
 .main_header {
-    height: 35%;
+    height: 33%;
     width: 100%;
     background-color: rgb(245, 245, 245);
-    box-shadow: 0 1px 4px rgb(221, 221, 221);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -100,9 +101,10 @@
 .body_content {
     height: 33%;
     width: 100%;
-    background-color: rgb(221, 219, 252);
-    box-shadow: 0 2px 4px rgb(214, 214, 214);
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgb(230, 227, 227), 0 -2px 4px rgb(230, 227, 227);
     padding: 2% 10% 2% 5%;
+    position: relative;
 }
 
 /* Here aswell */
@@ -117,6 +119,7 @@ form {
     flex-wrap: wrap;
     padding-top: 2%;
     font-weight: 500;
+    font-size: 0.7rem;
     letter-spacing: 2px;
     height: 90%;
 
@@ -139,7 +142,6 @@ input {
     height: 100%;
     border-radius: 6px;
     border: 1px solid rgb(204, 195, 195);
-    box-shadow: 0 2px 4px rgb(214, 214, 214);
     margin-top: 1%;
 }
 
@@ -162,7 +164,7 @@ button {
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: rgb(103, 59, 207);
+    background-color: rgb(207, 59, 150);
     border: none;
 }
 
