@@ -102,7 +102,7 @@
     width: 100%;
     background-color: rgb(221, 219, 252);
     box-shadow: 0 2px 4px rgb(214, 214, 214);
-    padding: 2% 10% 0 5%;
+    padding: 2% 10% 2% 5%;
 }
 
 /* Here aswell */
@@ -143,9 +143,19 @@ input {
     margin-top: 1%;
 }
 
+input[type="password"]:invalid {
+    border: 1px solid rgb(255, 88, 88);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(99, 96, 253);
+    box-shadow: 1px 1px 4px rgb(160, 182, 255);
+}
+
 button {
     position: relative;
-    top: 30%;
+    top: 45%;
     width: 25%;
     height: 25%;
     border-radius: 6px;
@@ -166,3 +176,6 @@ button {
     align-items: center;
 }
 
+.main_footer > p {
+    margin-bottom: 2%;
+}
